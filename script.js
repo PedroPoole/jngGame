@@ -14,8 +14,6 @@ const appDiv = document.getElementById('app');
     let turn = 0;
     let arrCollection = new Array();
     let maxWeight = 0;
-
-    .
     function load() {
       console.log(texts2);
       texts2.forEach((t) => {
