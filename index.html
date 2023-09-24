@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <div class="button-container">
+      <div class="margin">
+      
+      <form class="text" id="myForm">
+        <input type="file" id="csv" accept=".csv, .tsv" />
+      </form>
+      <div id="app"></div>
+    </div>
+  </div>
+    <div class="clock">
+      <div class="margin">
+      <button class="bigbutton" onclick="showRandom()">Random</button>
+
+      <div class="timeControl">
+        <button onclick="changeTime('down')"><<</button>
+        <input id="timer" type="text" value="69">
+        <button onclick="changeTime('up')">>></button>
+      </div>
+      <div id="timeRemoved"></div>
+    </div>
+
+
+    </div>
+
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+ 
