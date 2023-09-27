@@ -63,7 +63,7 @@ body {
 
 
 .play {
-    color: red;
+    color: rgb(110, 8, 8);
 }
 
 .rare {
@@ -72,7 +72,7 @@ body {
 }
 
 .waiting {
-    color: blue;
+    color: rgb(1, 1, 135);
 }
 
 .timeControl * {
